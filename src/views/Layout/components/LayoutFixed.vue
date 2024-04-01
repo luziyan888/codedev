@@ -2,7 +2,7 @@
   import { useScroll } from '@vueuse/core'
   const { y } = useScroll(window)
 
-  import {useCategoryStore} from '@/stores/category'
+  import {useCategoryStore} from '@/stores/categoryStore'
   const categoryStore = useCategoryStore()
 </script>
 
