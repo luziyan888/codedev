@@ -17,6 +17,7 @@ const getCheckInfo = async () => {
 }
 onMounted(() => getCheckInfo())
 
+
 // 控制弹框
 const showDialog = ref(false)
 
